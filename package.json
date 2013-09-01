@@ -1,0 +1,10 @@
+{
+    "name": "bootstrap",
+    "description": "bootstrap",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "3.3.5",
+        "ejs": "0.8.4",
+        "underscore": "1.5.1"
+    }
+}
