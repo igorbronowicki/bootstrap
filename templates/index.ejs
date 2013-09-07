@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>[%= title %]</title>
+    <title><%= title %></title>
     <link rel="stylesheet/less" type="text/css" href="/static/app.less" />
     <script type="text/javascript" src="/static/less.js"></script>
     <script type="text/javascript" src="/static/jquery.js"></script>
@@ -14,7 +14,13 @@
     <![endif]-->
 </head>
 <body>
-    Hello world!
+    <h1><%= title %></h1>
+
+    <ul>
+        <li><a href="/">ejs</a></li>
+        <li><a href="/jade">jade</a></li>
+        <li><a href="/swig">swig</a></li>
+    </ul>
 
     <div id="boo">
         <!-- This area will be filled by JavaScript -->
